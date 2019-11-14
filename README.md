@@ -34,3 +34,4 @@ mvn clean package install -DskipTests=true
 Next submit your topology to the localcluster:
 > storm local your-topology.jar the-class-to-be-executed
 The out put will be:
+![screen shot of cmd]https://github.com/EdisonNi-hku/storm/blob/master/command.png
