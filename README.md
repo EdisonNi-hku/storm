@@ -30,7 +30,7 @@ mvn clean package install -DskipTests=true
 && mvn package -Dgpg.skip=true
 && cp ./final-package/target/apache-storm-2.2.0-SNAPSHOT.tar.gz ~/source_code/storm/compiled 
 && cd  ~/source_code/storm/compiled 
-&& tar zxvf apache-storm-1.1.0.tar.gz
+&& tar zxvf apache-storm-2.2.0-SNAPSHOT.tar.gz
 ```
 Next submit your topology to the localcluster:
 > storm local your-topology.jar the-class-to-be-executed
