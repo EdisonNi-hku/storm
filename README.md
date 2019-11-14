@@ -11,7 +11,8 @@ This function is inside storm/storm-client/src/jvm/org/apache/storm/executor/bol
 
 ## The utility of this function inside the project:
 This function overides the tupleActionFn function in Executor.java and is called after the executor of a certain task is set up and allocated to a worker. The core line of this function is:
-> 234    boltObject.execute(tuple);
+> boltObject.execute(tuple);
+
 This line called the execute function defined by the client (Who created and submitted the topology)
 
 ## The way we used to test the utility of this function:
