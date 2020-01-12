@@ -8,12 +8,12 @@ import org.apache.storm.tuple.Fields;
 import org.apache.storm.tuple.Values;
 import org.apache.storm.utils.Utils;
 import java.util.Random;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 
 public class TestWordSpout extends BaseRichSpout {
-    public static Logger LOG = LoggerFactory.getLogger(TestWordSpout.class);
+    //public static Logger LOG = LoggerFactory.getLogger(TestWordSpout.class);
     SpoutOutputCollector _collector;
 
     public void open(Map conf, TopologyContext context, SpoutOutputCollector collector) {
