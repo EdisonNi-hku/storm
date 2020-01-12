@@ -18,7 +18,7 @@ public class PrintBolt extends BaseRichBolt {
 
     public void execute(Tuple tuple) {
         LOG.info(tuple.getString(0) + " Hello World!");
-        _collector.ack(tuple);
+        //_collector.ack(tuple);
     }
 
     public void declareOutputFields(OutputFieldsDeclarer declarer) {
