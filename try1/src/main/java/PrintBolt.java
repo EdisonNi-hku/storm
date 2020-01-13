@@ -9,7 +9,7 @@ import org.apache.storm.tuple.Tuple;
 //import org.slf4j.LoggerFactory;
 
 public class PrintBolt extends BaseRichBolt {
-    private static Logger LOG = LoggerFactory.getLogger(PrintBolt.class);
+    //private static Logger LOG = LoggerFactory.getLogger(PrintBolt.class);
     OutputCollector _collector;
 
     public void prepare(Map conf, TopologyContext context, OutputCollector collector) {
